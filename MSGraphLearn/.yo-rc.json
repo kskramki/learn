@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "ms-graph-learn",
+    "libraryId": "7934a959-ff3c-4d54-97a9-d3851496a3d6",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

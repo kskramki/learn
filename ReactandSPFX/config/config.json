@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "reactand-spfx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactandSpfx/ReactandSpfxWebPart.js",
+          "manifest": "./src/webparts/reactandSpfx/ReactandSpfxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js",
+   "pagination":{ "path": "./jquery.twbsPagination.js","globalName": "pagination"
+  
+    }
+  },
+  "localizedResources": {
+    "ReactandSpfxWebPartStrings": "lib/webparts/reactandSpfx/loc/{locale}.js"
+  }
+}

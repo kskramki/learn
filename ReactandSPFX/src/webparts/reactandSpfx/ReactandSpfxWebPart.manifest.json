@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e32c1e3a-0bdc-4190-a195-3634281db18a",
+  "alias": "ReactandSpfxWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "ReactandSPFX" },
+    "description": { "default": "ReactandSPFX description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ReactandSPFX"
+    }
+  }]
+}

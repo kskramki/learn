@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-label-client-side-solution",
+    "id": "ecc1b79b-c1a2-4e9f-8803-eef80bdcea4f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-label.sppkg"
+  }
+}
