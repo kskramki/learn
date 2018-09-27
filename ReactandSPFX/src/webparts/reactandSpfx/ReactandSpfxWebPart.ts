@@ -91,7 +91,7 @@ sp.searchSuggest(<SearchSuggestQuery>{
   console.log(r);
 });
 
-//********USING PNP********* Edit END
+//********USING PNP*********  END
     ReactDom.render(element, this.domElement);
   }
 //Comment
